@@ -1,0 +1,174 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Headings */
+
+#about h2 {
+  font-size: 24px;
+}
+
+#about h3 {
+  font-size: 18.72 px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+#portfolio h2 {
+  font-size: 24px;
+}
+
+#portfolio h3 {
+  font-size: 18.72px;
+}
+
+.listed li {
+  text-align: left;
+  list-style-position: inside;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+ 
+}
+
+/* Containers */
+
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.image-circle {  
+  display: flex; 
+  flex: 1;
+  width: 200px; 
+  height: auto;
+  border-radius: 50%; 
+  align-items: left;}
+
+
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+
+article {
+  padding: 10px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+nav a {text-align: center;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+  text-align: left;
+}
+
+header,
+footer p { 
+  text-align: center;
+}
+
+#portfolio p{
+  font-size: 14 px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:visited {
+  color: darkcyan;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+
+nav a {
+  padding: 10px 10px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.image-circle {
+  display: block;
+  margin: auto;
+  border: 2px solid #003049;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
+
+.group1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.itemize {
+  flex: 1;
+  margin: 10px;
+}
+
+.navigate, .linkme {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.linkme {
+  padding: 30px;
+}
